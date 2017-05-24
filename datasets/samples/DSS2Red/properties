@@ -1,0 +1,42 @@
+creator_did          = ivo://CDS/P/DSS2/red
+obs_collection       = DSS2 Red (F+R)
+obs_title            = DSS2 Red (F+R)
+obs_description      = The Catalogs and Surveys Group of the Space Telescope Science  Institute has digitized the photographic Sky survey plates from the Palomar and UK Schmidt telescopes to produce the "Digitized Sky Survey" (DSS). Each plate covers 6.5 x 6.5 degrees of the sky and have been digitized using a modified PDS microdensitometer.\nDSS2F north is the digitalization of the POSS2/UKSTU Red survey (0.658um)\nDSS2R south is the digitalization of the AAO Red survey (0.64um)\nThe all-sky HEALPix resampling has been done by the CDS
+obs_copyright        = Digitized Sky Survey - STScI/NASA, Healpixed by CDS
+obs_copyright_url    = http://archive.stsci.edu/dss/acknowledging.html
+client_category      = Image/Optical/DSS
+client_sort_key      = 03-01-02
+hips_creation_date   = 2012-07-13T14:03Z
+hips_release_date    = 2014-10-24T14:57Z
+#hips_release_date    = 2016-12-13T13:53Z
+hips_builder         = Aladin/HipsGen v9.039
+hips_creator         = CDS (T.Boch)
+hips_version         = 1.31
+# hips_order           = 9
+hips_order           = 3
+hips_frame           = equatorial
+hips_tile_width      = 512
+hips_tile_format     = jpeg fits
+dataproduct_type     = image
+client_application   = AladinLite
+moc_access_url       = http://alasky.u-strasbg.fr/DSS/DSS2Merged/Moc.fits
+hips_status          = public master clonableOnce
+hips_copyright       = CNRS/Unistra
+obs_ack              = The Digitized Sky Surveys were produced at the Space Telescope Science Institute under U.S. Government grant NAG W-2166. The images of these surveys are based on photographic data obtained using the Oschin Schmidt Telescope on Palomar Mountain and the UK Schmidt Telescope. The plates were processed into the present compressed digital form with the permission of these institutions 
+prov_progenitor      = STScI
+bib_reference        = 2008AJ....136..735L
+bib_reference_url    = http://simbad.u-strasbg.fr/simbad/sim-ref?bibcode=2008AJ....136..735L
+# Epoch	1984-1999
+t_min                = 45700
+t_max                = 51179
+obs_regime           = Optical
+# Bandpass	422-564 THz
+#em_min              = 7.104086682464e-7
+#em_max              = 5.315469113475e-7
+#hips_master_url     = ex: http://yourHipsServer/null
+hips_pixel_scale     = 2.236E-4
+#____FOR_COMPATIBILITY_WITH_OLD_HIPS_CLIENTS____
+label                = DSS2 Red (F+R)
+coordsys             = C
+maxOrder             = 9
+format               = jpeg fits
