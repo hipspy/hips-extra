@@ -1,0 +1,50 @@
+creator_did          = ivo://CDS/P/2MASS6X/H
+obs_collection       = 2MASS6X H
+obs_title            = 2MASS6X H (1.66um)
+obs_description      = During the final months of 2MASS observatory operations, a campaign of targeted "long exposure" observations was carried out during times when no previously unscanned parts of the sky were available for the main survey. These observations used the same freeze-frame scanning technique employed for the survey, but with READ2-READ1 exposures six times longer than was used for normal survey observations (hence they are referred to as "6x" observations). The 2MASS 6x measurements were intended to probe ~1 magnitude deeper than the main survey in unconfused regions. Approximately 590 deg2 of sky distributed in 30 targeted regions were scanned at least once using the long exposures. Most of this area is concentrated in two large, comprehensive surveys of the Large and Small Magellanic Clouds, 383 deg2 and 127 deg2, respectively. Twenty-eight additional smaller fields were mapped in the 6x mode from both observatories, covering targets that include the Pleiades open cluster, galactic star formation complexes, M31, nearby galaxy clusters and the Lockman Hole.
+obs_copyright_url    = http://www.ipac.caltech.edu/2mass/releases/allsky/doc/seca3_1.html
+prov_progenitor      = IPAC/NASA
+client_category      = Image/Infrared/2MASS/2MASS6X
+client_sort_key      = 04-001-99-02
+hips_creation_date   = 2012-04-23T07:52Z
+hips_release_date    = 2017-03-28T09:34Z
+hips_builder         = Aladin/HipsGen v9.615
+hips_creator         = CDS (T.Boch)
+hips_version         = 1.31
+hips_order           = 9
+hips_frame           = equatorial
+hips_tile_width      = 512
+hips_tile_format     = png jpeg fits
+dataproduct_type     = image
+hips_pixel_cut       = -5.716 152.2
+hips_data_range      = -54.3 3356
+moc_access_url       = http://alasky.unistra.fr/2MASS6X/2MASS6X_H/Moc.fits
+hips_service_url     = http://alasky.unistra.fr/2MASS6X/2MASS6X_H
+hips_status          = public master clonableOnce
+pixelRange           = -54.3 3356
+hips_copyright       = CNRS/Unistra
+obs_ack              = University of Massachusetts & IPAC/Caltech
+bib_reference        = 2006AJ....131.1163S
+bib_reference_url    = http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2006AJ....131.1163S
+obs_copyright        = University of Massachusetts & IPAC/Caltech
+#t_min et t_max source : http://www.ipac.caltech.edu/2mass/releases/allsky/doc/seca3_2.html
+#MJD                 = (UnixTime/86400)+40587 ; 1999 November 6 = 941846400 UnixTime ; 2001 February 15=982195200 UnixTime
+t_min                = 51488
+t_max                = 51955
+obs_regime           = Infrared
+#Lambda 1.662 (+/-0.009), Bandwith 0.251 (+/- 0.002) cf: http://www.ipac.caltech.edu/2mass/releases/allsky/faq.html#reference
+em_min               = 1.525E-6
+em_max               = 1.798E-6
+hips_hierarchy       = mean
+hips_pixel_scale     = 2.236E-4
+#hips_master_url     = ex: http://yourHipsServer/null
+hips_pixel_bitpix    = -32
+hipsgen_date         = 2017-03-28T09:34Z
+hipsgen_params       = out=2MASS6X_H "pixelCut=-5.716 152.2" UPDATE
+#____FOR_COMPATIBILITY_WITH_OLD_HIPS_CLIENTS____
+label                = 2MASS6X H
+coordsys             = C
+maxOrder             = 9
+format               = png jpeg fits
+pixelCut             = -5.716 152.2
+
