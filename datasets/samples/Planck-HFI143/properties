@@ -1,0 +1,24 @@
+publisher_did      = ivo://CDS/P/PLANCK/HFI143
+obs_collection     = PLANCK-HFI 143GHz
+obs_title          = PLANCK nominal frequency HFI map 143Ghz
+obs_description    = The Planck mission will collect and characterise radiation from the Cosmic Microwave Background (CMB) using sensitive radio receivers operating at extremely low temperatures. These receivers will determine the black body equivalent temperature of the background radiation and will be capable of distinguishing temperature variations of about one microkelvin. These measurements will be used to produce the best ever maps of anisotropies in the CMB radiation field.
+obs_copyright_url  = http://pla.esac.esa.int/pla
+prov_progenitor    = ESA
+client_category    = Image/Radio/PLANCK/R1/HFI
+client_sort_key    = 05-04-zR1-01-05
+hips_release_date  = 2013-03-21T19:01Z
+hips_publisher     = CDS
+hips_version       = 1.2
+hips_order         = 3
+hips_frame         = galactic
+hips_tile_width    = 256
+hips_tile_format   = jpeg fits
+dataproduct_type   = image
+hips_glu_tag       = P-PLANCK-HFI143.hpx
+moc_access_url     = http://alasky.u-strasbg.fr/PLANCK/HFI143/Moc.fits
+hips_service_url   = http://alasky.u-strasbg.fr/PLANCK/HFI143
+hips_status        = public master clonable
+
+#For compatibility
+label              = PLANCK-HFI 143GHz
+coordsys           = G
