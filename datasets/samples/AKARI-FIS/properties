@@ -1,0 +1,52 @@
+creator_did          = ivo://CDS/P/AKARI/FIS/Color
+obs_collection       = AKARI FIS Color
+obs_title            = AKARI Far-infrared All-Sky Survey - color composition WideL/WideS/N60
+obs_description      =  AKARI (Previously known as ASTRO-F or IRIS - InfraRed Imaging Surveyor) is the second space mission for infrared astronomy in Japan. AKARI was developed by the members of JAXA/ISAS and collaborators. IRAS (Infrared Astronomical Satellite, launched in 1983 by the United Kingdom, the United States, and the Netherlands) carried out the first all-sky survey at infrared wavelengths and made a huge impact on astronomy. The AKARI mission was an ambitious plan to make an all-sky survey with much better sensitivity, spatial resolution and wider wavelength coverage than those of IRAS. All-sky survey obtained by the Far-Infrared Surveyor (FIS) onboard the AKARI satellite, at 65um (Color), 90 um (WIDE-S), 140um (WIDE-L),and 160um (N160). See  http://www.ir.isas.jaxa.jp/AKARI/Archive/Images/FIS_AllSkyMap/Doi_AKARI_FIR_AllSkySurvey.pdf.
+obs_ack              = University of Tokyo, ISAS/JAXA, Tohoku University, University of Tsukuba, RAL, and Open University
+obs_copyright        = ISAS/JAXA
+obs_copyright_url    = http://www.ir.isas.jaxa.jp/AKARI/Archive/Images/FIS_AllSkyMap/
+client_application   = AladinLite
+client_category      = Image/Infrared/AKARI-FIS
+client_sort_key      = 04-05-00
+hips_release_date    = 2016-05-26T15:16Z
+hips_builder         = Aladin/HipsGen v9.017
+hips_creator         = P. Fernique [CDS]
+hips_version         = 1.31
+hips_order           = 5
+hips_frame           = equatorial
+hips_tile_width      = 512
+hips_tile_format     = png jpeg
+dataproduct_type     = image
+hips_rgb_red         = WideLHiPS [0.0 250.0 500.0 Log]
+hips_rgb_green       = WideSHiPS [-1.5 91.75 185.0 Log]
+hips_rgb_blue        = N60HiPS [-1.5 69.25 140.0 Log]
+client_application   = AladinLite
+moc_access_url       = http://alasky.u-strasbg.fr/AKARI-FIS/ColorLSN60/Moc.fits
+hips_service_url     = http://alasky.u-strasbg.fr/AKARI-FIS/ColorLSN60
+hips_status          = public master clonableOnce
+
+dataproduct_subtype  = color
+isColored            = true
+hips_copyright       = CNRS/Unistra
+prov_progenitor      = ISAS/JAXA
+bib_reference        = 2015PASJ...67...50D
+bib_reference        = 2015PASJ...67...51T
+bib_reference_url    = http://simbad.u-strasbg.fr/simbad/sim-ref?bibcode=2015PASJ...67...50D
+bib_reference_url    = http://simbad.u-strasbg.fr/simbad/sim-ref?bibcode=2015PASJ...67...51T
+#May 8th, 2006 - August 26th, 2007
+t_min                = 53863
+t_max                = 54338
+obs_regime           = Infrared
+#65um (N60), 90 um (WIDE-S), 140um (WIDE-L),and 160um (N160)
+em_min               = 6.5E-5
+em_max               = 1.6E-4
+hips_creation_date   = 2015-01-09T14:17Z
+hips_hierarchy       = mean
+hips_pixel_scale     = 0.003579
+
+#____FOR_COMPATIBILITY_WITH_OLD_HIPS_CLIENTS____
+label                = AKARI FIS Color
+coordsys             = C
+maxOrder             = 5
+format               = png jpeg
+
