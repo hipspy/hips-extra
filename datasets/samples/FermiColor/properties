@@ -1,0 +1,46 @@
+creator_did          = ivo://CDS/P/Fermi/color
+obs_collection       = Fermi color
+obs_title            = Fermi Color HEALPix survey
+obs_copyright        = Distributed by SkyView/HEASARC - HEALPixed by CDS
+client_category      = Image/Gamma-ray
+client_sort_key      = 00-01-01
+hips_creation_date   = 2013-06-28T11:09Z
+hips_release_date    = 2016-11-30T14:17Z
+hips_builder         = Aladin/HipsGen v9.028
+hips_creator         = CDS (T.Boch)
+hips_version         = 1.31
+hips_order           = 3
+hips_frame           = equatorial
+hips_tile_format     = jpeg
+dataproduct_type     = image
+hips_rgb_red         = 300-1000MeVALLSKY~1 [0.0 10.0 20.0 Sqrt]
+hips_rgb_green       = 1-3GeVALLSKY~1 [0.0 5.0 10.0 Sqrt]
+hips_rgb_blue        = 3-300GeVALLSKY [0.0 2.0 4.0 Sqrt]
+client_application   = AladinLite
+moc_access_url       = http://alasky.u-strasbg.fr/Fermi/Color/Moc.fits
+hips_service_url     = http://alasky.u-strasbg.fr/Fermi/Color
+hips_status          = public master clonableOnce
+dataproduct_subtype  = color
+hips_copyright       = CNRS/Unistra
+obs_description      = Launched on June 11, 2008, the Fermi Gamma-ray Space Telescope observes the cosmos using the highest-energy form of light. This survey sums all data observed by the Fermi mission up to week 396. This version of the Fermi survey are intensity maps where the summed counts maps are divided by the exposure for each pixel. We anticipate using the HEASARC's Hera capabilities to update this survey on a roughly quarterly basis. Data is broken into 5 energy bands : 30-100 MeV Band 1, 100-300 MeV Band 2, 300-1000 MeV Band 3, 1-3 GeV Band 4 , 3-300 GeV Band 5. The SkyView data are based upon a Cartesian projection of the counts divided by the exposure maps. In the Cartesian projection pixels near the pole have a much smaller area than pixels on the equator, so these pixels have smaller integrated flux. When creating large scale images in other projections users may wish to make sure to compensate for this effect the flux conserving clip-resampling option. 
+obs_ack              = This research has made use of data, software and/or web tools obtained from the High Energy Astrophysics Science Archive Research Center (HEASARC), a service of the Astrophysics Science Division at NASA/GSFC and of the Smithsonian Astrophysical Observatory's High Energy Astrophysics Division
+prov_progenitor      = NASA/HEASARC
+bib_reference        = 2009ApJ...697.1071A
+bib_reference_url    = http://simbad.u-strasbg.fr/simbad/sim-ref?bibcode=2009ApJ...697.1071A
+obs_copyright_url    = http://skyview.gsfc.nasa.gov/current/cgi/survey.pl
+#2008 - 2012
+t_min                = 54628
+t_max                = 56291
+obs_regime           = Gamma-ray
+em_min               = 3.7196525787E-10
+em_max               = 3.7196525787E-7
+hips_tile_width      = 512
+#hips_master_url     = ex: http://yourHipsServer/null
+hips_pixel_scale     = 0.01431
+#____FOR_COMPATIBILITY_WITH_OLD_HIPS_CLIENTS____
+label                = ID1480515456
+coordsys             = C
+maxOrder             = 3
+format               = jpeg
+isColor              = true
+
